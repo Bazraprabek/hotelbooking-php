@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav a {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+nav ul a:hover {
+  color: wheat;
+}
+nav img{
+  width: 25px;
+  margin-right: 5px;
+}
+nav {
+  background-color: brown;
+  padding: 10px;
+  color: white;
+}
+nav h2 {
+  padding: 0 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 5px 10px;
+}
+
+/* Account */
+.account {
+  padding: 20px 0;
+  overflow: auto;
+}
+table {
+  text-align: center;
+  padding: 20px;
+}
+th,
+td {
+  padding: 5px 10px;
+}

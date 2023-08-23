@@ -1,0 +1,82 @@
+.container {
+  overflow: auto;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: darkblue;
+  justify-content: space-around;
+  width: 100%;
+}
+nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+nav img{
+  width: 25px;
+  margin: 0px 5px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding: 0 10px;
+}
+.home h1{
+  font-size: 3rem;
+}
+.box{
+  margin: 50px 0px;
+  min-height: 40vh;
+  width: 40vw;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 1px wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box h2{
+  font-size: 1.8rem;
+}
+
+/* Booking */
+th,td{
+  padding: 10px;
+}
+.ctable th,
+.ctable td {
+  background: rgb(239, 202, 202);
+}
+.ctable th{
+  background-color: blueviolet;
+  color: #fff;
+}
+
+/* Profile */
+.hinfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hinfo img {
+  width: 30vw;
+}
+.desc input{
+  font-size: 1.2rem;
+}
+.desc input,
+.desc textarea {
+  width: 100%;
+  padding: 10px;
+}
+form button {
+  padding: 10px;
+  color: blue;
+  margin-left: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
